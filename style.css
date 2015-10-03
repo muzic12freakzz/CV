@@ -1,0 +1,87 @@
+body
+{
+	background-image:url(background.png);
+}
+
+div
+{
+	display:block;
+}
+.social
+{
+	height:10%;
+	width:auto;
+}
+
+.profile
+{
+	width: 20%;
+	height: auto;
+	border-radius: 50%;
+}
+
+#resume, #media, #education, #aboutMe, #work
+{
+	height:100vh;
+	width:auto;
+	margin:0 auto;
+	text-align:center;
+	/*background-color:grey;*/
+}
+
+.unorderedlists
+{
+	display: inline-block;
+	text-align:left;
+}
+
+td
+{
+	border:1px;
+	text-align:center;
+}
+
+table
+{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+@font-face{
+	font-family:tabs;
+	src: url(categories.ttf);
+}
+
+@font-face{
+	font-family:title;
+	src: url(title.ttf);
+}
+
+.category
+{
+	font-family:tabs;
+	font-size:10vh;
+}
+
+#title
+{
+	font-size:10vh;
+	color:gray;
+	font-family:title;
+}
+
+.link
+{
+	font-size:3vh;
+	color:black;
+}
+
+.link a:visited
+{
+	color:black;
+}
+
+.link a:hover
+{
+	color:green;
+}
